@@ -14,7 +14,7 @@ def on_key_event(e):
             with open('coords.json', 'w') as json_file:
                 json.dump(coordinates, json_file, indent=2)
 
-            print(f"Koordinat {index} eklendi: x={x}, y={y}")
+            print(f"Added - {index} x:{x}, y:{y}")
         else:
             print("37 Kordinat Yeri İşlendi Kapatılıyor...")
             keyboard.unhook_all()
