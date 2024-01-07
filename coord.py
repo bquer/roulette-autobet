@@ -4,7 +4,7 @@ import json
 import time
 
 coordinates = {}
-print("Uygulama Başladı Sırası ile Tuşların üstüne gelip 'K' Tuşuna Tıklayın.")
+print("App Started - Press 'K' for save coordinates")
 def on_key_event(e):
     if e.name == 'k' and e.event_type == keyboard.KEY_DOWN:
         if len(coordinates) < 37:  
@@ -28,6 +28,6 @@ try:
 except KeyboardInterrupt:
     pass
 finally:
-    print("ESCye Basıldı Kapatılıyor...")
+    print("Bye...")
     keyboard.unhook_all()
     time.sleep(4)
