@@ -14,7 +14,6 @@ class RouletteApp(QWidget):
 
         self.setWindowTitle("BQuer AutoBet")
         self.setGeometry(100, 100, 600, 150) 
-        self.setWindowIcon(QIcon('icon.ico'))
         self.coords = self.load_coords()
         self.click_algorithm = click_algorithm
         self.create_roulette_buttons_page()
