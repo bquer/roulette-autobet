@@ -9,5 +9,5 @@ Auto bet for all roulette games
 ![Preview](https://raw.githubusercontent.com/bquer/roulette-autobet/main/Capture.PNG)
 ### Test Video
 [Click Me](https://youtu.be/9oOHiPisy0w?si=KEtAShSvxhtXnYPq)
-## Lisence 
+## Lisense 
 - MIT
